@@ -29,13 +29,20 @@
 #define LOG_WAVESTART true
 
 //File Locations
+//TODO: You have to adjust filepaths
+
+//SFML Path
 #define FILE_LOCATION "D:/Data/SFML/"
+
+//Config File Locations
+#define FILE_CONFIG_LOCATION "D:/Data/SFML/ChatGame/ChatGame/ChatGame/configs"
+
 //#define FILE_LOCATION_CHATLOG_OLD "D:/Data/SFML/oldchatlogs"
-#define FILE_LOCATION_CHATLOG "D:/Data/SFML/chatlog.log"
-#define INI_LOCATION_STARTUP "D:/Data/SFML/startup.ini"
-#define INI_LOCATION_PLAYERS "D:/Data/SFML/players.ini"
-#define FILE_LOCATION_PLAYERS "D:/Data/SFML/Chatgame/players.dat"
-#define INI_LOCATION_WAYPOINTS "D:/Data/SFML/waypoints.ini"
+#define FILE_LOCATION_CHATLOG FILE_LOCATION + "chatlog.log"
+#define INI_LOCATION_STARTUP FILE_CONFIG_LOCATION + "startup.ini"
+#define INI_LOCATION_PLAYERS FILE_CONFIG_LOCATION + "players.ini"
+#define FILE_LOCATION_PLAYERS FILE_CONFIG_LOCATION + "players.dat"
+#define INI_LOCATION_WAYPOINTS FILE_CONFIG_LOCATION + "waypoints.ini"
 #define FILE_LOCATION_HTML "D:/Data/Dropbox/Public/TwitchCastle/playerstats.htm"
 
 //IRC Stuff

@@ -123,6 +123,11 @@
     </ClCompile>
     <ClCompile Include="Waypoint.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="configs\players.ini" />
+    <None Include="configs\startup.ini" />
+    <None Include="configs\waypoints.ini" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
