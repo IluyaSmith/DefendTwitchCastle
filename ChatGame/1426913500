@@ -1,0 +1,7 @@
+1426913500
+
+:iluyasbot!iluyasbot@iluyasbot.tmi.twitch.tv JOIN #iluyasmith
+:iluyasbot.tmi.twitch.tv 353 iluyasbot = #iluyasmith :iluyasbot
+:iluyasbot.tmi.twitch.tv 366 iluyasbot #iluyasmith :End of /NAMES list
+:iluyasmith!iluyasmith@iluyasmith.tmi.twitch.tv JOIN #iluyasmith
+:jtv MODE #iluyasmith +o iluyasmith
