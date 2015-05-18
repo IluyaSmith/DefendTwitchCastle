@@ -55,7 +55,8 @@ void Network_Handler::ListenToIrc()
 	{
 		//do something with the message!
 		servermsg = std::string(buffer);
-		servermsg.erase(recieved, servermsg.length());
+		//TODO: Throws out of range exeption now. dunno what happened
+		//servermsg.erase(recieved, servermsg.size());
 
 		//Log into oconsole
 		if (LOG_CHAT) { std::cout << servermsg << std::endl; }

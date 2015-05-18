@@ -35,14 +35,14 @@
 #define FILE_LOCATION "D:/Data/SFML/"
 
 //Config File Locations
-#define FILE_CONFIG_LOCATION "D:/Data/SFML/ChatGame/ChatGame/ChatGame/configs"
+#define FILE_CONFIG_LOCATION "D:/Data/SFML/ChatGame/ChatGame/ChatGame/configs/"
 
 //#define FILE_LOCATION_CHATLOG_OLD "D:/Data/SFML/oldchatlogs"
-#define FILE_LOCATION_CHATLOG FILE_LOCATION + "chatlog.log"
-#define INI_LOCATION_STARTUP FILE_CONFIG_LOCATION + "startup.ini"
-#define INI_LOCATION_PLAYERS FILE_CONFIG_LOCATION + "players.ini"
-#define FILE_LOCATION_PLAYERS FILE_CONFIG_LOCATION + "players.dat"
-#define INI_LOCATION_WAYPOINTS FILE_CONFIG_LOCATION + "waypoints.ini"
+#define FILE_LOCATION_CHATLOG FILE_LOCATION "chatlog.log"
+#define INI_LOCATION_STARTUP FILE_CONFIG_LOCATION "startup.ini"
+#define INI_LOCATION_PLAYERS FILE_CONFIG_LOCATION "players.ini"
+#define FILE_LOCATION_PLAYERS FILE_CONFIG_LOCATION "players.dat"
+#define INI_LOCATION_WAYPOINTS FILE_CONFIG_LOCATION "waypoints.ini"
 #define FILE_LOCATION_HTML "D:/Data/Dropbox/Public/TwitchCastle/playerstats.htm"
 
 //IRC Stuff
